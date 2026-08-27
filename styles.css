@@ -21,7 +21,33 @@ img{max-width:100%;display:block}
 .nav{position:sticky;top:0;z-index:50;background:rgba(3,20,35,.94);backdrop-filter:blur(12px);border-bottom:1px solid rgba(214,166,70,.18)}
 .nav-inner{min-height:82px;display:flex;align-items:center;gap:28px}
 .brand{display:flex;align-items:center;gap:12px;margin-right:auto}
-.brand img{width:72px;height:72px;object-fit:contain}
+/* =========================================
+   LOGO OJC
+   ========================================= */
+
+.brand img{
+    width:76px;
+    height:76px;
+    object-fit:contain;
+
+    /* Fondo blanco circular */
+    background:#ffffff;
+    border-radius:50%;
+
+    /* Espacio entre el logo y el fondo */
+    padding:5px;
+
+    /* Evita transparencias o filtros */
+    opacity:1;
+    filter:none;
+
+    /* Mantiene el círculo perfectamente definido */
+    box-sizing:border-box;
+
+    /* Acabado elegante */
+    box-shadow:0 0 0 1px rgba(255,255,255,.12);
+}
+
 .brand-name{font-family:Georgia,serif;font-size:1.1rem;letter-spacing:.06em;line-height:1.05}
 .brand-name span{display:block}
 .brand-name small{display:block;color:var(--gold2);font-family:Inter,sans-serif;letter-spacing:.3em;margin-top:5px}
