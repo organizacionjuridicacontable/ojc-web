@@ -167,3 +167,50 @@ textarea{min-height:150px;resize:vertical}
     color: #07111b;
     font-size: .9rem;
 }
+
+/* =========================================
+   ICONOS PROFESIONALES DEL MENU OJC
+   ========================================= */
+
+.nav-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.nav-links a svg {
+    width: 17px;
+    height: 17px;
+    stroke-width: 1.7;
+    color: var(--gold2);
+    flex-shrink: 0;
+    transition: all .25s ease;
+}
+
+.nav-links a:hover svg {
+    transform: translateY(-1px);
+    stroke-width: 2;
+}
+
+.nav-links a.active svg {
+    stroke-width: 2;
+}
+
+/* Icono del botón Agendar */
+.nav-links .cta svg {
+    width: 17px;
+    height: 17px;
+    color: #07111b;
+    stroke-width: 2;
+}
+
+.nav-links .cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 17px;
+    min-height: 44px;
+    min-width: 145px;
+    border-radius: 5px;
+}
