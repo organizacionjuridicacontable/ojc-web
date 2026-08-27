@@ -277,3 +277,20 @@ textarea{min-height:150px;resize:vertical}
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(214, 166, 70, 0.18);
 }
+
+/* =========================================
+   SEPARACIÓN DEL LOGO Y EL MENÚ
+   ========================================= */
+
+.navbar{
+    column-gap: 45px;
+}
+
+.brand{
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+
+.nav-links{
+    margin-left: auto;
+}
