@@ -23,25 +23,33 @@ img{max-width:100%;display:block}
 .brand{display:flex;align-items:center;gap:12px;margin-right:auto}
 
 /* =========================================
-   LOGO OJC
+   LOGO OJC - CIRCULO INDEPENDIENTE
    ========================================= */
 
-.brand img{
-    width:58px;
-    height:58px;
-    object-fit:contain;
-
+.logo-circle{
+    width:66px;
+    height:66px;
     background:#ffffff;
     border-radius:50%;
 
-    padding:4px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    flex-shrink:0;
+    overflow:visible;
+}
+
+.logo-circle img{
+    width:72px;
+    height:72px;
+    object-fit:contain;
+
+    background:transparent;
+    padding:0;
 
     opacity:1;
     filter:none;
-
-    box-sizing:border-box;
-
-    box-shadow:0 0 0 1px rgba(255,255,255,.10);
 }
 .brand-name{font-family:Georgia,serif;font-size:1.1rem;letter-spacing:.06em;line-height:1.05}
 .brand-name span{display:block}
