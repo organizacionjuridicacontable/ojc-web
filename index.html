@@ -1,86 +1,828 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Inicio | OJC</title><meta name="description" content="Organización Jurídica Contable OJC. Servicios jurídicos y declaraciones de renta. Más de 30 años de experiencia."><link rel="stylesheet" href="styles.css"></head><body>
-<header>
-<div class="topbar"><div class="container inner"><div>Más de 30 años brindando respaldo jurídico y contable.</div><div>Cúcuta, Norte de Santander, Colombia &nbsp; · &nbsp; ES | EN</div></div></div>
-<nav class="nav"><div class="container nav-inner">
-<a class="brand" href="index.html"><img src="assets/logo-ojc.png" alt="OJC"><div class="brand-name"><span>ORGANIZACIÓN</span><span>JURÍDICA CONTABLE</span><small>OJC</small></div></a>
-<button class="menu-btn" aria-label="Abrir menú">☰</button>
+<!DOCTYPE html>
+<html lang="es">
 
-<div class="nav-links">
+<head>
+    <meta charset="UTF-8">
 
-    <a class="active" href="index.html">
-        <i data-lucide="house"></i>
-        <span>Inicio</span>
-    </a>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <a href="nosotros.html">
-        <i data-lucide="users"></i>
-        <span>Nosotros</span>
-    </a>
+    <title>OJC | Organización Jurídica Contable</title>
 
-    <a href="servicios-juridicos.html">
-        <i data-lucide="scale"></i>
-        <span>Servicios Jurídicos</span>
-    </a>
+    <meta
+        name="description"
+        content="OJC - Organización Jurídica Contable. Servicios jurídicos y contables para personas y empresas en Colombia y el exterior."
+    >
 
-    <a href="servicios-contables.html">
-        <i data-lucide="file-chart-column"></i>
-        <span>Servicios Contables</span>
-    </a>
+    <link rel="stylesheet" href="css/style.css">
 
-    <a href="equipo.html">
-        <i data-lucide="briefcase-business"></i>
-        <span>Equipo</span>
-    </a>
+</head>
 
-    <a href="preguntas-frecuentes.html">
-        <i data-lucide="circle-help"></i>
-        <span>Preguntas frecuentes</span>
-    </a>
+<body>
 
-    <a href="contacto.html">
-        <i data-lucide="mail"></i>
-        <span>Contacto</span>
-    </a>
+    <!-- =========================================
+         ENCABEZADO
+         ========================================= -->
 
-    <a class="cta" href="agendar.html">
-        <i data-lucide="calendar-days"></i>
-        <span>Agendar consulta</span>
-    </a>
+    <header class="header">
+
+        <div class="container navbar">
+
+            <!-- LOGO -->
+            <a href="index.html" class="brand">
+
+                <div class="brand-logo">
+                    <img
+                        src="assets/logo-ojc.png"
+                        alt="Logo OJC"
+                    >
+                </div>
+
+                <div class="brand-name">
+                    <span>ORGANIZACIÓN</span>
+                    <span>JURÍDICA</span>
+                    <span>CONTABLE</span>
+                    <strong>OJC</strong>
+                </div>
+
+            </a>
+
+
+            <!-- MENÚ -->
+            <nav class="nav-links">
+
+                <a class="active" href="index.html">
+                    <i data-lucide="house"></i>
+                    <span>Inicio</span>
+                </a>
+
+                <a href="nosotros.html">
+                    <i data-lucide="users"></i>
+                    <span>Nosotros</span>
+                </a>
+
+                <a href="servicios-juridicos.html">
+                    <i data-lucide="scale"></i>
+                    <span>Servicios Jurídicos</span>
+                </a>
+
+                <a href="servicios-contables.html">
+                    <i data-lucide="file-chart-column"></i>
+                    <span>Servicios Contables</span>
+                </a>
+
+                <a href="equipo.html">
+                    <i data-lucide="briefcase-business"></i>
+                    <span>Equipo</span>
+                </a>
+
+                <a href="preguntas-frecuentes.html">
+                    <i data-lucide="circle-help"></i>
+                    <span>Preguntas frecuentes</span>
+                </a>
+
+                <a href="contacto.html">
+                    <i data-lucide="mail"></i>
+                    <span>Contacto</span>
+                </a>
+
+                <a class="cta" href="agendar.html">
+                    <i data-lucide="calendar-days"></i>
+                    <span>Agendar consulta</span>
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================================
+         PORTADA / HERO
+         ========================================= -->
+
+    <main>
+
+        <section class="hero">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="eyebrow">
+                        ORGANIZACIÓN JURÍDICA CONTABLE
+                    </span>
+
+                    <h1>
+                        Más de 30 años
+                        <span>brindando respaldo</span>
+                        jurídico y contable.
+                    </h1>
+
+                    <p>
+                        Asesoramos a personas y empresas 
+                        con soluciones jurídicas y contables confiables, 
+                        estratégicas y profesionales.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="servicios-juridicos.html"
+                            class="button button-primary"
+                        >
+                            Conocer nuestros servicios
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+
+                        <a
+                            href="agendar.html"
+                            class="button button-outline"
+                        >
+                            Agendar consulta
+                            <i data-lucide="calendar-days"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="hero-location">
+
+                        <i data-lucide="map-pin"></i>
+
+                        <span>
+                            Cúcuta, Norte de Santander · Colombia
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ELEMENTO VISUAL -->
+
+                <div class="hero-visual">
+
+                    <div class="<div class="hero-card">
+
+                    <div class="hero-card-top">
+                    <div class="hero-card-icon">
+                    <i data-lucide="scale"></i>
+                </div>
+
+                        <span>OJC</span>
+                </div>
+
+                <div class="hero-card-line"></div>
+
+                <div class="hero-card-content">
+
+                        <span class="hero-card-label">
+                         TRAYECTORIA Y CONFIANZA
+                        </span>
+
+               <strong>
+            Experiencia<br>
+            que respalda.
+        </strong>
+
+        <p>
+            Más de tres décadas brindando
+            acompañamiento jurídico y contable
+            a personas y empresas.
+        </p>
+
+    </div>
+
+    <div class="hero-card-footer">
+        <span>+30</span>
+        <small>AÑOS DE EXPERIENCIA</small>
+    </div>
 
 </div>
 
-</header>
-<section class="hero"><div class="hero-art"></div><div class="container hero-content">
-<div class="kicker">Organización Jurídica Contable · OJC</div>
-<h1>Más de 30 años brindando <span>respaldo</span> jurídico y contable.</h1>
-<p>Asesoría profesional para personas y empresas en Colombia y el exterior, con atención personalizada y una visión integral de sus necesidades.</p>
-<div class="actions"><a class="cta" href="agendar.html">Solicitar asesoría</a><a class="cta outline" data-wa href="#">Hablar por WhatsApp</a></div>
-</div></section>
-<section class="stats"><div class="container stats-grid">
-<div class="stat"><strong>30+</strong><span>Años de experiencia</span></div><div class="stat"><strong>Personalizada</strong><span>Atención para cada cliente</span></div><div class="stat"><strong>Integral</strong><span>Servicios jurídicos y contables</span></div><div class="stat"><strong>Global</strong><span>Atención nacional e internacional</span></div>
-</div></section>
-<section class="section"><div class="container"><div class="section-head"><div><div class="kicker">Nuestros servicios</div><h2>Soluciones integrales para personas y empresas</h2></div><p class="lead">Acompañamiento profesional con ética, responsabilidad y compromiso en cada caso.</p></div>
-<div class="cards"><article class="card"><div class="icon">⚖</div><h3>Servicios jurídicos</h3><p>Asesoría y representación en las principales áreas del derecho.</p><ul><li>Derecho civil</li><li>Derecho comercial y empresarial</li><li>Derecho laboral</li><li>Derecho de familia</li><li>Derecho administrativo</li><li>Contratos y documentos</li><li>Constitución de empresas</li><li>Multas y sanciones</li></ul><a class="cta outline" href="servicios-juridicos.html">Ver servicios →</a></article>
-<article class="card"><div class="icon">▣</div><h3>Servicios contables</h3><p>Orientación para cumplir correctamente con sus obligaciones tributarias.</p><ul><li>Declaraciones de renta</li></ul><a class="cta outline" href="servicios-contables.html">Ver servicio →</a></article></div></div></section>
-<section class="section alt"><div class="container"><div class="section-head"><div><div class="kicker">Nuestro equipo</div><h2>Profesionales a su servicio</h2></div><a class="cta outline" href="equipo.html">Conoce al equipo →</a></div>
-<div class="team">
-<div class="person"><div class="person-photo">LS</div><h3>Luz Stella Ibarra Cacua</h3><p>Abogada · Especialista en Derecho de Familia</p></div>
-<div class="person"><div class="person-photo">RA</div><h3>Rafael Andres Rojas Ibarra</h3><p>Consultor Legal</p></div>
-<div class="person"><div class="person-photo">RA</div><h3>Rafael Antonio Rojas Garcia</h3><p>Contador</p></div>
-</div></div></section>
+                </div>
 
-<section class="banner"><div class="container banner-inner"><div><div class="kicker">Atención personalizada</div><h2>¿Necesitas asesoría profesional?</h2><p class="lead">Agenda una consulta con nuestro equipo por WhatsApp y recibe orientación.</p></div><a class="cta" data-wa href="#">Agendar por WhatsApp</a></div></section>
-<footer class="footer"><div class="container footer-grid">
-<div><img src="assets/logo-ojc.png" alt="OJC" style="width:85px;margin-bottom:12px"><h3 style="margin:0;font-family:Georgia,serif">ORGANIZACIÓN JURÍDICA CONTABLE</h3><p>Más de 30 años brindando respaldo jurídico y contable.</p></div>
-<div><h4>Enlaces rápidos</h4><p><a href="nosotros.html">Nosotros</a></p><p><a href="servicios-juridicos.html">Servicios jurídicos</a></p><p><a href="servicios-contables.html">Servicios contables</a></p><p><a href="equipo.html">Equipo</a></p></div>
-<div><h4>Contacto</h4><p>WhatsApp: +57 300 000 0000</p><p>Correo: info@ojc.com.co</p><p>Cúcuta, Norte de Santander, Colombia</p></div>
-<div><h4>Síguenos</h4><p><a href="#" target="_blank">Instagram</a></p><p><a href="#">Facebook</a></p><p><a href="#">LinkedIn</a></p></div>
-</div><div class="container footer-bottom"><span>© <span data-year></span> Organización Jurídica Contable - OJC.</span><span>Diseñado para transmitir confianza.</span></div></footer><script src="script.js"></script>
+            </div>
 
-<script src="https://unpkg.com/lucide@latest"></script>
-<script>
-    lucide.createIcons();
-</script>
+        </section>
+
+<!-- =====================================================
+     SECCIÓN NOSOTROS
+     ===================================================== -->
+
+<section class="about" id="nosotros">
+
+    <div class="container">
+
+        <!-- Encabezado -->
+
+        <div class="about-header">
+
+            <span class="eyebrow">
+                NUESTRA FIRMA
+            </span>
+
+            <h2>
+                Experiencia que construye
+                <span>confianza.</span>
+            </h2>
+
+            <p>
+                En OJC integramos experiencia jurídica y contable
+                para brindar soluciones profesionales, confiables
+                y estratégicas a personas y empresas.
+            </p>
+
+        </div>
+
+
+        <!-- Contenido -->
+
+        <div class="about-content">
+
+
+            <!-- Texto -->
+
+            <div class="about-text">
+
+                <span class="about-number">
+                    01
+                </span>
+
+                <h3>
+                    Una trayectoria construida
+                    con compromiso.
+                </h3>
+
+                <p>
+                    Durante más de 30 años hemos acompañado
+                    diferentes necesidades jurídicas y contables,
+                    ofreciendo una atención cercana y profesional.
+                </p>
+
+                <p>
+                    Nuestro enfoque combina conocimiento,
+                    experiencia y atención personalizada para
+                    ayudar a nuestros clientes a tomar decisiones
+                    con mayor seguridad.
+                </p>
+
+                <a href="equipo.html" class="text-link">
+                    Conoce nuestro equipo
+                    <i data-lucide="arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <!-- Características -->
+
+            <div class="about-features">
+
+
+                <div class="about-feature">
+
+                    <div class="about-feature-icon">
+                        <i data-lucide="award"></i>
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            +30
+                        </strong>
+
+                        <span>
+                            Años de trayectoria
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-feature">
+
+                    <div class="about-feature-icon">
+                        <i data-lucide="scale"></i>
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Jurídico
+                        </strong>
+
+                        <span>
+                            Asesoría y representación legal
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-feature">
+
+                    <div class="about-feature-icon">
+                        <i data-lucide="calculator"></i>
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Contable
+                        </strong>
+
+                        <span>
+                            Declaraciones de renta
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-feature">
+
+                    <div class="about-feature-icon">
+                        <i data-lucide="users"></i>
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Atención cercana
+                        </strong>
+
+                        <span>
+                            Soluciones adaptadas a cada cliente
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+        <!-- =========================================
+             INTRODUCCIÓN
+             ========================================= -->
+
+        <section class="intro">
+
+    <div class="container intro-grid">
+
+        <div>
+
+            <span class="section-label">
+                SOBRE OJC
+            </span>
+
+            <h2>
+                Una organización que brinda
+                <span>respaldo y confianza.</span>
+            </h2>
+
+        </div>
+
+        <div>
+
+            <p>
+                En OJC acompañamos a personas, empresas y
+                organizaciones con soluciones jurídicas y
+                contables profesionales, construidas desde
+                el conocimiento, la experiencia y una atención
+                cercana.
+            </p>
+
+            <p>
+                Nuestro compromiso es comprender las necesidades
+                de cada cliente y ofrecer orientación clara,
+                estratégica y responsable para ayudarle a tomar
+                mejores decisiones.
+            </p>
+
+            <a href="nosotros.html" class="text-link">
+                Conocer OJC
+                <i data-lucide="arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- =========================================
+             SERVICIOS
+             ========================================= -->
+
+        <section class="services">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+
+                <span class="section-label">
+                    NUESTROS SERVICIOS
+                </span>
+
+                <h2>
+                    Soluciones jurídicas
+                    y contables.
+                </h2>
+
+            </div>
+
+            <p>
+                Atención profesional para personas,
+                empresas y organizaciones.
+            </p>
+
+        </div>
+
+
+        <div class="service-grid">
+
+            <!-- SERVICIOS JURÍDICOS -->
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    <i data-lucide="scale"></i>
+                </div>
+
+                <span>
+                    01
+                </span>
+
+                <h3>
+                    Servicios Jurídicos
+                </h3>
+
+
+                <div class="service-list">
+
+                    <div>
+                        <i data-lucide="heart-handshake"></i>
+                        <span>Derecho de familia</span>
+                    </div>
+
+                    <div>
+                        <i data-lucide="scale"></i>
+                        <span>Consultoría jurídica</span>
+                    </div>
+
+                    <div>
+                        <i data-lucide="gavel"></i>
+                        <span>Representación legal</span>
+                    </div>
+
+                </div>
+
+
+                <a href="servicios-juridicos.html">
+
+                    Ver más servicios
+
+                    <i data-lucide="arrow-up-right"></i>
+
+                </a>
+
+            </article>
+
+
+            <!-- SERVICIOS CONTABLES -->
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    <i data-lucide="file-chart-column"></i>
+                </div>
+
+                <span>
+                    02
+                </span>
+
+                <h3>
+                    Servicios Contables
+                </h3>
+
+
+                <div class="service-list">
+
+                    <div>
+                        <i data-lucide="calculator"></i>
+                        <span>Contabilidad</span>
+                    </div>
+
+                    <div>
+                        <i data-lucide="file-text"></i>
+                        <span>Declaraciones tributarias</span>
+                    </div>
+
+                    <div>
+                        <i data-lucide="chart-no-axes-combined"></i>
+                        <span>Asesoría contable</span>
+                    </div>
+
+                </div>
+
+
+                <a href="servicios-contables.html">
+
+                    Ver más servicios
+
+                    <i data-lucide="arrow-up-right"></i>
+
+                </a>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+        <!-- =========================================
+             EXPERIENCIA
+             ========================================= -->
+
+        <section class="experience">
+
+            <div class="container experience-content">
+
+                <div>
+
+                    <span class="section-label">
+                        NUESTRA EXPERIENCIA
+                    </span>
+
+                    <h2>
+                        Más de tres décadas
+                        construyendo confianza.
+                    </h2>
+
+                </div>
+
+                <div class="experience-number">
+
+                    <strong>
+                        30+
+                    </strong>
+
+                    <span>
+                        años de experiencia
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             EQUIPO
+             ========================================= -->
+
+        <section class="team-preview">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="section-label">
+                            NUESTRO EQUIPO
+                        </span>
+
+                        <h2>
+                            Profesionales a su servicio.
+                        </h2>
+
+                    </div>
+
+                    <a href="equipo.html" class="text-link">
+                        Conocer el equipo
+                        <i data-lucide="arrow-right"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="team-grid">
+
+                    <article class="team-card">
+
+                        <div class="team-placeholder">
+                            <i data-lucide="user-round"></i>
+                        </div>
+
+                        <h3>
+                            Luz Stella Ibarra Cacua
+                        </h3>
+
+                        <p>
+                            Abogada · Especialista en Derecho de Familia
+                        </p>
+
+                    </article>
+
+
+                    <article class="team-card">
+
+                        <div class="team-placeholder">
+                            <i data-lucide="user-round"></i>
+                        </div>
+
+                        <h3>
+                            Rafael Andres Rojas Ibarra
+                        </h3>
+
+                        <p>
+                            Consultor Legal
+                        </p>
+
+                    </article>
+
+
+                    <article class="team-card">
+
+                        <div class="team-placeholder">
+                            <i data-lucide="user-round"></i>
+                        </div>
+
+                        <h3>
+                            Rafael Antonio Rojas Garcia
+                        </h3>
+
+                        <p>
+                            Contador
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             CONTACTO / CTA
+             ========================================= -->
+
+        <section class="contact-cta">
+
+            <div class="container">
+
+                <div class="contact-cta-content">
+
+                    <span class="section-label">
+                        ¿NECESITA ASESORÍA?
+                    </span>
+
+                    <h2>
+                        Hablemos sobre su caso.
+                    </h2>
+
+                    <p>
+                        Contáctenos para conocer cómo podemos
+                        ayudarle.
+                    </p>
+
+                    <a
+                        href="https://wa.me/"
+                        class="button button-primary"
+                        target="_blank"
+                    >
+                        Hablar por WhatsApp
+                        <i data-lucide="message-circle"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================
+         FOOTER
+         ========================================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <div class="footer-brand">
+                    OJC
+                </div>
+
+                <p>
+                    Organización Jurídica Contable
+                </p>
+
+                <span>
+                    Más de 30 años de experiencia.
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Navegación
+                </h4>
+
+                <a href="nosotros.html">
+                    Nosotros
+                </a>
+
+                <a href="servicios-juridicos.html">
+                    Servicios Jurídicos
+                </a>
+
+                <a href="servicios-contables.html">
+                    Servicios Contables
+                </a>
+
+                <a href="equipo.html">
+                    Equipo
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h4>
+                    Contacto
+                </h4>
+
+                <span>
+                    Cúcuta, Norte de Santander
+                </span>
+
+                <a href="contacto.html">
+                    Contactarnos
+                </a>
+
+                <a href="agendar.html">
+                    Agendar consulta
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <span>
+                © 2026 OJC · Organización Jurídica Contable
+            </span>
+
+            <span>
+                ES | EN
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ICONOS -->
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        lucide.createIcons();
+    </script>
+
+    <script src="js/main.js"></script>
 
 </body>
+
 </html>
